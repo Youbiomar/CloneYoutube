@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__start">
+            <button class="header__menu-btn">
+                <div class="header__menu-icon"></div>
+                <div class="header__menu-icon"></div>
+                <div class="header__menu-icon"></div>
+            </button>
+            <div class="header__logo">
+                <img src="./Integrations/logo.png" alt="YouTube">
+                <h1 class="header__title">YouTube</h1>
+            </div>
+        </div>
+        <div class="header__center">
+            <div class="header__search">
+                <input placeholder="Rechercher" class="header__search-input">
+                <button class="header__search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="header__mic-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+        <div class="header__end">
+            <button class="header__icon-btn">
+                <i class="fas fa-video"></i>
+            </button>
+            <button class="header__icon-btn">
+                <i class="fas fa-bell"></i>
+            </button>
+            <button class="header__avatar-btn">
+                <i class="fas fa-user"></i>
+            </button>
+        </div>
+    </header>
+    <div class="separator"></div>
+    <div class="main-container">  
+        <nav class="sidebar">
+            <div class="sidebar__section">
+                <button class="sidebar__item sidebar__item--active"><i class="fa-solid fa-house"></i> Accueil</button>
+                <button class="sidebar__item"><i class="fas fa-compass"></i> Explorer</button>
+                <button class="sidebar__item"><i class="fas fa-bolt"></i> Shorts</button>
+                <button class="sidebar__item"><i class="fas fa-play-circle"></i> Abonnements</button>
+            </div>
+            <div class="separator"></div>
+            <div class="sidebar__section">
+                <button class="sidebar__item sidebar__item--header">Vous <i class="fas fa-chevron-right"></i></button>
+                <button class="sidebar__item"><i class="fas fa-user"></i> Votre chaîne</button>
+                <button class="sidebar__item"><i class="fas fa-history"></i> Historique</button>
+                <button class="sidebar__item"><i class="fas fa-play"></i> Vos vidéos</button>
+                <button class="sidebar__item"><i class="fas fa-clock"></i> À regarder plus tard</button>
+                <button class="sidebar__item"><i class="fa-regular fa-thumbs-up"></i> Vidéos "J'aime"</button>
+                <button class="sidebar__item"><i class="fas fa-chevron-down"></i> Afficher plus</button>
+            </div>
+            <div class="separator"></div>
+            
+            <div class="separator"></div>
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">Explorer</h3>
+                
+                <button class="sidebar__item"><i class="fas fa-music"></i> Musique</button>
+                <button class="sidebar__item"><i class="fa-solid fa-gamepad"></i> Jeux vidéo</button>
+                <button class="sidebar__item"><i class="fas fa-newspaper"></i> Actualités</button>
+                <button class="sidebar__item"><i class="fas fa-trophy"></i> Sport</button>
+            </div>
+            <div class="separator"></div>
+            <div class="sidebar__section">
+                <h3 class="sidebar__heading">YouTube Premium</h3>
+                <button class="sidebar__item"><i class="fas fa-film"></i> Films YouTube</button>
+                <button class="sidebar__item"><i class="fas fa-podcast"></i> YouTube Music</button>
+                <button class="sidebar__item"><i class="fas fa-child"></i> YouTube Kids</button>
+            </div>
+            <div class="separator"></div>
+            <div class="sidebar__section">
+                <button class="sidebar__item"><i class="fas fa-gear"></i> Paramètres</button>
+                <button class="sidebar__item"><i class="fas fa-flag"></i> Historique des signalements</button>
+                <button class="sidebar__item"><i class="fas fa-question-circle"></i> Aide</button>
+                <button class="sidebar__item"><i class="fas fa-comment-alt"></i> Envoyer des commentaires</button>
+            </div>
+            <div class="separator"></div>
+            <div class="sidebar__footer">
+                <div class="sidebar__footer-links">
+                    <a href="#" class="sidebar__footer-link">À propos</a>
+                    <a href="#" class="sidebar__footer-link">Presse</a>
+                    <a href="#" class="sidebar__footer-link">Copyright</a>
+                    <a href="#" class="sidebar__footer-link">Nous contacter</a>
+                    <a href="#" class="sidebar__footer-link">Créateurs</a>
+                    <a href="#" class="sidebar__footer-link">Publicité</a>
+                    <a href="#" class="sidebar__footer-link">Développeurs</a>
+                </div>
+                <div class="sidebar__footer-links">
+                    <a href="#" class="sidebar__footer-link">Conditions d'utilisation</a>
+                    <a href="#" class="sidebar__footer-link">Confidentialité</a>
+                    <a href="#" class="sidebar__footer-link">Règles et sécurité</a>
+                    <a href="#" class="sidebar__footer-link">Premiers pas</a>
+                    <a href="#" class="sidebar__footer-link">Tester de nouvelles fonctionnalités</a>
+                </div>
+                <p class="sidebar__copyright">© 2025 Google LLC</p>
+            </div>
+        </nav>
+        <main class="content">
+            <div class="content__categories">
+                <button class="content__category content__category--active">Tous</button>
+                <button class="content__category">En direct</button>
+                <button class="content__category">Mixages</button>
+                <button class="content__category">Musique</button>
+                <button class="content__category">Programmation</button>
+                <button class="content__category">Informatique</button>
+                <button class="content__category">Jeux vidéo</button>
+                <button class="content__category">Podcasts</button>
+                <button class="content__category">Intelligence artificielle</button>
+                <button class="content__category">Design</button>
+                <button class="content__category">Actualités</button>
+                <button class="content__category">Récemment mis en ligne</button>
+                <button class="content__category">Regardées</button>
+                <button class="content__category">Nouveautés pour vous</button>
+            </div>
+            <div class="content__videos">
+                <div class="video-card">
+                    <div class="video-card__thumbnail">
+                        <img src="./Integrations/csharp.png" alt="">
+                        <span class="video-card__duration">12:34</span>
+                    </div>
+                    <div class="video-card__info">
+                        <div class="video-card__channel-img">
+                        
+                        </div>
+                        <div class="video-card__details">
+                            <h3 class="video-card__title">c# in 100 seconds</h3>
+                            <p class="video-card__channel">Code bro</p>
+                            <p class="video-card__metadata">700 vues • il y a 1 mois </p>
+                        </div>
+                        <button class="video-card__options">
+                            <i class="fas fa-ellipsis-vertical"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-card__thumbnail">
+                        <img src="./Integrations/c++.png" alt="">
+                        <span class="video-card__duration">18:22</span>
+                    </div>
+                    <div class="video-card__info">
+                        <div class="video-card__channel-img">
+                            
+                        </div>
+                        <div class="video-card__details">
+                            <h3 class="video-card__title">c++ in 100 seconds</h3>
+                            <p class="video-card__channel">Code bro</p>
+                            <p class="video-card__metadata">380 K vues • il y a 6 jours </p>
+                        </div>
+                        <button class="video-card__options">
+                            <i class="fas fa-ellipsis-vertical"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-card__thumbnail">
+                        <img src="./Integrations/css.png" alt="">
+                        <span class="video-card__duration">28:17</span>
+                    </div>
+                    <div class="video-card__info">
+                        <div class="video-card__channel-img">
+                            
+                        </div>
+                        <div class="video-card__details">
+                            <h3 class="video-card__title">css in 100 seconds</h3>
+                            <p class="video-card__channel">Code bro</p>
+                            <p class="video-card__metadata">547 K vues • il y a 4 ans </p>
+                        </div>
+                        <button class="video-card__options">
+                            <i class="fas fa-ellipsis-vertical"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="content__videos">
+                <div class="video-card">
+                    <div class="video-card__thumbnail">
+                        <img src="./Integrations/HTML.png" alt="">
+                        <span class="video-card__duration">14:22</span>
+                    </div>
+                    <div class="video-card__info">
+                        <div class="video-card__channel-img">
+                            
+                        </div>
+                        <div class="video-card__details">
+                            <h3 class="video-card__title">HTML in 100 seconds</h3>
+                            <p class="video-card__channel">Code bro</p>
+                            <p class="video-card__metadata">15,5 M vues • il y a 3 ans </p>
+                        </div>
+                        <button class="video-card__options">
+                            <i class="fas fa-ellipsis-vertical"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-card__thumbnail">
+                        <img src="./Integrations/javascript.png" alt="">
+                        <span class="video-card__duration">10:05</span>
+                    </div>
+                    <div class="video-card__info">
+                        <div class="video-card__channel-img">
+                            
+                        </div>
+                        <div class="video-card__details">
+                            <h3 class="video-card__title">Javascript in 100 seconds</h3>
+                            <p class="video-card__channel">Code bro</p>
+                            <p class="video-card__metadata"> 3,4 M vues • il y a 10 ans </p>
+                        </div>
+                        <button class="video-card__options">
+                            <i class="fas fa-ellipsis-vertical"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <div class="video-card__thumbnail">
+                        <img src="./Integrations/php.png" alt="">
+                        <span class="video-card__duration">12:47</span>
+                    </div>
+                    <div class="video-card__info">
+                        <div class="video-card__channel-img">
+                            
+                        </div>
+                        <div class="video-card__details">
+                            <h3 class="video-card__title">PHP in 100 seconds</h3>
+                            <p class="video-card__channel">Studio Couleurs</p>
+                            <p class="video-card__metadata">5,12 k vues • il y a 13 ans </p>
+                        </div>
+                        <button class="video-card__options">
+                            <i class="fas fa-ellipsis-vertical"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="shorts-section">
+                <div class="shorts-section__header">
+                    <i class="fas fa-bolt"></i>
+                    <h2>Shorts</h2>
+                </div>
+                <div class="shorts-section__container">
+                    <div class="short-card">
+                        <div class="short-card__thumbnail">
+                            <img src="./Integrations/python.png alt="">
+                        </div>
+                        <h3 class="short-card__title">PYTHON in 100 seconds</h3>
+                        <p class="short-card__views">17 M vues</p>
+                    </div>
+                    <div class="short-card">
+                        <div class="short-card__thumbnail">
+                            <img src="./Integrations/react.png" alt="">
+                        </div>
+                        <h3 class="short-card__title">PYTHON in 100 seconds</h3>
+                        <p class="short-card__views">16 k vues</p>
+                    </div>
+                    <div class="short-card">
+                        <div class="short-card__thumbnail">
+                            <img src="./Integrations/SQL.png" alt="">
+                        </div>
+                        <h3 class="short-card__title">SQL in 100 seconds</h3>
+                        <p class="short-card__views">5 M vues</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
